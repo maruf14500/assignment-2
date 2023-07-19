@@ -168,12 +168,18 @@ h2 {
 
 }
 
+.four-image {
+    width: 270px;
+    height: 300px;
+    border-radius: 16px;
+}
+
 .main2 {
     margin: 0px 240px;
     display: flex;
     justify-content: center;
- margin-top: 20px;
- margin-bottom: 20px;
+    margin-top: 20px;
+    margin-bottom: 250px;
 }
 
 .two_img {
@@ -196,7 +202,7 @@ h2 {
     position: absolute;
     padding-top: 400px;
     width: 320px;
-height: 365px;
+    height: 365px;
 
 }
 
@@ -219,4 +225,39 @@ height: 365px;
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
+}
+
+.main3{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0px 240px;
+    margin-bottom: 30px;
+    
+
+}
+
+.align{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 248px;
+height: 80px;
+gap: 20px;
+    
+}
+.element{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    
+}
+
+.align:hover{
+    border-radius: 50px;
+background: #FFF;
+    border:1px solid #F948B2;
+    color: #F948B2;
 }
