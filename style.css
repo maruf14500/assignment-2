@@ -227,37 +227,100 @@ h2 {
     line-height: 30px;
 }
 
-.main3{
+.main3 {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     margin: 0px 240px;
     margin-bottom: 30px;
-    
+
 
 }
 
-.align{
+.align {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 248px;
-height: 80px;
-gap: 20px;
-    
+    height: 80px;
+    gap: 20px;
+
 }
-.element{
+
+.element {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     gap: 30px;
-    
+
 }
 
-.align:hover{
+.align:hover {
     border-radius: 50px;
-background: #FFF;
-    border:1px solid #F948B2;
+    background: #FFF;
+    border: 1px solid #F948B2;
     color: #F948B2;
+}
+
+
+.footer {
+    width: 1920px;
+    height: 636px;
+    background: #0B0223;
+    padding-top: 50px;
+}
+
+
+.navicon-foot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footh3 {
+    color: #FFF;
+}
+
+
+.para-foot {
+    padding-top: 30px;
+    color: #FFF;
+    display: flex;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    justify-content: center;
+    gap: 60px;
+}
+
+.icon-foot {
+    padding-top: 60px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.term-foot {
+    display: flex;
+    padding: 70px;
+    gap: 60px;
+    color: #FFF;
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 16px;
+    font-weight: 500;
+    justify-content: center;
+
+}
+
+.last-foot {
+    color: rgba(255, 255, 255, 0.60);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+
 }
