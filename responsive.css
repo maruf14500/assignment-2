@@ -1,3 +1,44 @@
-@media screen and (max-width: 400px){
+@media screen and (max-width: 566px){
+    nav, .nav{
+        flex-direction: column;
+        padding: 0;
+        margin: 0;
+        margin-bottom: 200px;
+    }
+    .navicon{
+        flex-direction: row;
+       
+        padding: 0;
+        margin: 0;
+    }
+    .menus{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .heading{
+        flex-direction: column;
+    }
+    .slide{
+        flex-direction: column;
+    }
+    .main2{
+        flex-direction: column;
+    }
+    .main3{
+        flex-direction: column;
+    }
+    .footer{
+        width: auto;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .nav-icon-foot{
+        flex-wrap: wrap;
+    }
+    .pera-foot{
+        flex-direction: row;
+    }
     
 }
