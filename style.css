@@ -1,7 +1,7 @@
 body {
     font-family: 'Work Sans', sans-serif;
     overflow-x: hidden;
-   
+
 }
 
 
@@ -25,7 +25,7 @@ body {
     padding-right: 310px;
 }
 
-.navicon {
+.nav-icon{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -36,7 +36,7 @@ body {
     color: #FF42A5;
 }
 
-.navicon img {
+.nav-icon img {
     width: 50px;
 
 }
@@ -266,7 +266,7 @@ h2 {
 
 
 .footer {
-    
+
     height: 636px;
     background: #0B0223;
     padding-top: 50px;
@@ -323,5 +323,13 @@ h2 {
     text-align: center;
     font-size: 16px;
     font-weight: 500;
+
+}
+
+
+.slide :hover {
+   
+    border-radius: 16px;
+color: linear-gradient(0deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.60) 100%), url(<path-to-image>), lightgray 50% / cover no-repeat;
 
 }
